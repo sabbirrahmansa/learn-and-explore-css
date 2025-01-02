@@ -1,0 +1,44 @@
+
+*{
+    margin: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#container{
+    border: 10px solid palevioletred;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 20px 20px palegreen;
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+}
+#img{
+    width: 200px;
+    background-color: blueviolet;
+    border: 2px solid yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px slategray;
+}
+#nav{
+    background-image: url("../developer.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80px;
+    
+}
+#all-div-container{
+    display: flex;
+    gap: 8px;
+}
+#form{
+    border: 8px solid skyblue;
+    background-color: rgba(0, 255, 255, 0.247);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
